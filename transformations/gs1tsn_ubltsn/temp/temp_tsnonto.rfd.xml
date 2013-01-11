@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:ns1="urn:gs1:ecom:transport_status_notification:xsd:3" xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:e="http://efreight.sti2.at/ontology/crs#">
+    <e:Document rdf:about="100002">
+        <e:hasStringID>100002</e:hasStringID>
+        <e:issuedAt>2006-01-10T12:00:01.000-05:00</e:issuedAt>
+        <e:hasTypeVersion>3.0</e:hasTypeVersion>
+        <e:hasStandard>GS1</e:hasStandard>
+        <e:Sender>
+            <e:hasAuthority>GS1</e:hasAuthority>
+        </e:Sender>
+        <e:Receiver>
+            <e:hasAuthority>GS1</e:hasAuthority>
+        </e:Receiver>
+        <e:hasCreationDateTime>2006-01-10T12:00:01.000-05:00</e:hasCreationDateTime>
+    </e:Document>
+    <e:TransportStatus>
+        <e:hasCreationDateTime>2011-01-12T12:10:00.000-05:00</e:hasCreationDateTime>
+        <e:hasStatusCode>ORIGINAL</e:hasStatusCode>
+        <e:hasStringId/>
+        <e:hasStatusInformationCode>STATUS_AND_MOVEMENT</e:hasStatusInformationCode>
+        <e:hasStatusProvider>
+            <e:ProviderParty>
+                <e:hasStringId>4048623000003</e:hasStringId>
+            </e:ProviderParty>
+        </e:hasStatusProvider>
+        <e:hasStatusRequestor>
+            <e:RequestorParty>
+                <e:hasStringId>7365566156190</e:hasStringId>
+            </e:RequestorParty>
+        </e:hasStatusRequestor>
+        <e:hasConsignmentStatusNotification>
+            <e:ConsignmentStatusNotification>
+                <e:hasConsignment>
+                    <e:Consignment>
+                        <e:hasStringID>7365566156191234567</e:hasStringID>
+                        <e:hasConsignor>
+                            <e:LegalEntity>
+                                <e:hasStringID>7365566156190</e:hasStringID>
+                            </e:LegalEntity>
+                        </e:hasConsignor>
+                        <e:hasConsignee>
+                            <e:LegalEntity>
+                                <e:hasStringID>7300011234566</e:hasStringID>
+                            </e:LegalEntity>
+                        </e:hasConsignee>
+                    </e:Consignment>
+                </e:hasConsignment>
+                <e:hasTransportStatusCondition>29</e:hasTransportStatusCondition>
+                <e:hasTransportMovement>
+                    <e:TransportMovement>
+                        <e:hasSequenceNumber>1</e:hasSequenceNumber>
+                        <e:hasTransportModeTypeCode>30</e:hasTransportModeTypeCode>
+                        <e:hasTransportEvent>
+                            <e:ArrivalTransportEvent>
+                                <e:hasLocation>
+                                    <!--Only city handled here-->Lund</e:hasLocation>
+                                <e:hasTime>2011-01-14T18:08:00</e:hasTime>
+                            </e:ArrivalTransportEvent>
+                        </e:hasTransportEvent>
+                        <e:hasTransportEvent>
+                            <e:DepartureTransportEvent>
+                                <e:hasLocation>
+                                    <!--Only city handled here-->Stockholm</e:hasLocation>
+                                <e:hasTime>2011-01-14T11:08:00</e:hasTime>
+                            </e:DepartureTransportEvent>
+                        </e:hasTransportEvent>
+                    </e:TransportMovement>
+                </e:hasTransportMovement>
+            </e:ConsignmentStatusNotification>
+        </e:hasConsignmentStatusNotification>
+    </e:TransportStatus>
+</rdf:RDF>

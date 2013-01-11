@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:TransportationStatusRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:TransportationStatusRequest-2 ../maindoc/UBL-TransportationStatusRequest-2.1.xsd"
+ xmlns:udt="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2"
+ xmlns:sac="urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2"
+ xmlns:sbc="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2"
+ xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+ xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:TransportationStatusRequest-2"
+ xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+ xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"
+ xmlns:ns1="http://uri.etsi.org/01903/v1.4.1#"
+ xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+ xmlns:ccts="urn:un:unece:uncefact:documentation:2"
+ xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2"
+ xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2"
+ xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+ xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2">
+	<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+	<cbc:CustomizationID>e-Freight</cbc:CustomizationID>
+	<cbc:ID>TSR_1</cbc:ID>
+	<cbc:IssueDate>2011-10-06</cbc:IssueDate>
+	<cbc:IssueTime>09:29:10+01:00</cbc:IssueTime>
+	<cbc:TransportationStatusTypeCode>All deviations</cbc:TransportationStatusTypeCode>
+	<!--<cac:TransportExecutionPlanDocumentReference>-->
+		<!--<cbc:ID>TEP_1</cbc:ID>-->
+	<!--</cac:TransportExecutionPlanDocumentReference>-->
+	<cac:Consignment>
+		<cbc:ID>CON_1</cbc:ID>
+        <cac:ConsigneeParty>
+            <cac:PartyIdentification>
+                <cbc:ID schemeAgencyID="GS1">7365566156191</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:ConsigneeParty>
+        <cac:ConsignorParty>
+            <cac:PartyIdentification>
+                <cbc:ID schemeAgencyID="GS12">7365566156190</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:ConsignorParty>
+	</cac:Consignment>
+    <cac:StatusLocation>
+        <cbc:ID>BUD377</cbc:ID>
+        <cac:Address>
+            <cbc:Postbox>377</cbc:Postbox>
+            <cac:Country>
+                <cbc:IdentificationCode>HUN</cbc:IdentificationCode>
+                <cbc:Name>Hungary</cbc:Name>
+            </cac:Country>
+        </cac:Address>
+    </cac:StatusLocation>
+    <cac:StatusPeriod>
+        <cbc:StartDate>2011-10-06</cbc:StartDate>
+        <cbc:StartTime>10:23:10+01:00</cbc:StartTime>
+        <cbc:EndDate>2011-10-07</cbc:EndDate>
+        <cbc:EndTime>10:24:10+01:00</cbc:EndTime>
+    </cac:StatusPeriod>
+</ns2:TransportationStatusRequest>

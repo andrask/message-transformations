@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:TransportationStatusRequest xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:TransportationStatusRequest-2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:e="http://efreight.sti2.at/ontology/crs#">
+<cbc:ID>TSR_1</cbc:ID>
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>e-Freight</cbc:CustomizationID>
+<cbc:IssueDate>2011-10-06</cbc:IssueDate>
+<cbc:IssueTime>09:29:10+01:00</cbc:IssueTime>
+<cbc:TransportationStatusTypeCode>All deviations</cbc:TransportationStatusTypeCode>
+<cbc:ID/>
+<cac:StatusPeriod>
+<cbc:StartDate>2011-10-06</cbc:StartDate>
+<cbc:StartTime>10:23:10+01:00</cbc:StartTime>
+<cbc:EndDate>2011-10-07</cbc:EndDate>
+<cbc:EndTime>10:24:10+01:00</cbc:EndTime>
+</cac:StatusPeriod>
+</ns2:TransportationStatusRequest>

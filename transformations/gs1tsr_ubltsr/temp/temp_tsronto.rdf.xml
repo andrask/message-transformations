@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:TransportationStatusRequest-2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:e="http://efreight.sti2.at/ontology/crs#">
+<e:Document rdf:about="TSR_1">
+<e:hasStringID>TSR_1</e:hasStringID>
+<e:issuedAt>2011-10-06T09:29:10+01:00</e:issuedAt>
+</e:Document>
+<e:TransportStatusRequest>
+<e:hasCreationDateTime>2011-10-06T09:29:10+01:00</e:hasCreationDateTime>
+<e:hasStringID>TSR_1</e:hasStringID>
+<e:hasStatusInformationCode>All deviations</e:hasStatusInformationCode>
+<e:hasBeginDateTimeDescription>
+<e:DateTimeInterval>2011-10-06T10:23:10+01:00</e:DateTimeInterval>
+</e:hasBeginDateTimeDescription>
+<e:hasEndDateTimeDescription>
+<e:DateTimeInterval>2011-10-07T10:24:10+01:00</e:DateTimeInterval>
+</e:hasEndDateTimeDescription>
+<e:hasLocation>
+<e:Location>
+<e:hasStringID>BUD377</e:hasStringID>
+<e:hasPostbox>377</e:hasPostbox>
+<e:hasCountryCode/>
+</e:Location>
+</e:hasLocation>
+<e:hasConsignment>
+<e:Consignment>
+<e:hasStringID>CON_1</e:hasStringID>
+<e:hasConsignor>
+<e:LegalEntity>
+<e:hasStringID>7365566156190</e:hasStringID>
+<e:hasStringIDSchemeAgencyID>GS12</e:hasStringIDSchemeAgencyID>
+</e:LegalEntity>
+</e:hasConsignor>
+<e:hasConsignee>
+<e:LegalEntity>
+<e:hasStringID>7365566156191</e:hasStringID>
+<e:hasStringIDSchemeAgencyID>GS1</e:hasStringIDSchemeAgencyID>
+</e:LegalEntity>
+</e:hasConsignee>
+</e:Consignment>
+</e:hasConsignment>
+</e:TransportStatusRequest>
+</rdf:RDF>

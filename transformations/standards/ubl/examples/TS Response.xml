@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:TransportationStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:TransportationStatus-2 ../maindoc/UBL-TransportationStatus-2.1.xsd"
+ xmlns:udt="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2"
+ xmlns:sac="urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2"
+ xmlns:sbc="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2"
+ xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+ xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:TransportationStatus-2"
+ xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+ xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"
+ xmlns:ns1="http://uri.etsi.org/01903/v1.4.1#"
+ xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+ xmlns:ccts="urn:un:unece:uncefact:documentation:2"
+ xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2"
+ xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2"
+ xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+ xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>e-Freight</cbc:CustomizationID>
+    <cbc:ID>TS_1</cbc:ID>
+    <cbc:IssueDate>2011-10-06</cbc:IssueDate>
+    <cbc:IssueTime>09:29:30+01:00</cbc:IssueTime>
+    <cbc:TransportationStatusTypeCode>All deviations</cbc:TransportationStatusTypeCode>
+    <!--Damage in the course of transportation-->
+    <cbc:TransportExecutionStatusCode>35</cbc:TransportExecutionStatusCode>
+    <cac:TransportExecutionPlanDocumentReference>
+        <cbc:ID>TEP_1</cbc:ID>
+    </cac:TransportExecutionPlanDocumentReference>
+    <cac:Consignment>
+        <cbc:ID>CON_1</cbc:ID>
+        <cac:TransportHandlingUnit>
+            <cbc:ID>CON_THU_1</cbc:ID>
+            <cac:TransportEquipment>
+                <cbc:ID>CON_TE_1</cbc:ID>
+            </cac:TransportEquipment>
+            <cac:Status>
+                <!--Damage-->
+                <cbc:ConditionCode>4</cbc:ConditionCode>
+                <!--Equipment failure-->
+                <cbc:StatusReasonCode>23</cbc:StatusReasonCode>
+                <cbc:StatusReason>Reefer container lost power - cargo of fish destroyed</cbc:StatusReason>
+            </cac:Status>
+            </cac:TransportHandlingUnit>
+    </cac:Consignment>
+</ns2:TransportationStatus>
